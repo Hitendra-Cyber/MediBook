@@ -1,6 +1,6 @@
 # 🩺 MediBook  
 
-MediBook is a simple healthcare-themed website built using **HTML, CSS, and JavaScript**.  
+MediBook is a simple healthcare-themed website built using **HTML and CSS**.  
 It provides a clean and structured interface for users to explore healthcare services, consult doctors, and access useful health information.  
 
 ---
