@@ -1,0 +1,186 @@
+/* === MediBook Light Theme === */
+/* Color palette: purple + white + light gray */
+
+:root {
+    --primary: #6a0dad;       /* Purple */
+    --secondary: #8a2be2;     /* Lighter purple */
+    --text: #333;
+    --bg: #fff;
+    --light-gray: #f5f5f5;
+}
+
+/* Global styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding: 10px 40px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo img {
+    width: 80px;
+    border-radius: 8px;
+}
+
+nav .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.active {
+    color: var(--secondary);
+}
+
+/* Buttons in navbar */
+nav .nav-buttons .btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.login-btn {
+    background: white;
+    color: var(--primary);
+}
+
+.signup-btn {
+    background: var(--secondary);
+    color: white;
+}
+
+.login-btn:hover {
+    background: var(--light-gray);
+}
+
+.signup-btn:hover {
+    background: white;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+/* Page Containers */
+div {
+    padding: 30px 50px;
+}
+
+/* Headings */
+h2, h3 {
+    color: var(--primary);
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Forms */
+.form-container {
+    background-color: var(--light-gray);
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+form button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: var(--secondary);
+}
+
+/* Tip Box */
+.tip-box {
+    background-color: #f2e9ff;
+    border-left: 4px solid var(--primary);
+    padding: 12px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--primary);
+    color: white;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .nav-links {
+        flex-direction: column;
+    }
+
+    div {
+        padding: 20px;
+    }
+
+    .form-container {
+        width: 90%;
+    }
+}

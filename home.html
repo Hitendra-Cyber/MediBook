@@ -2,20 +2,25 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MediBook | Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- ✅ Link to external CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
 
 <body>
+    <!-- 🌸 Navigation Bar -->
     <nav>
         <div class="logo">
             <a href="home.html">
-                <img src="logo.jpg" alt="MediBook Logo">
+                <img src="assets/images/logo.jpg" alt="MediBook Logo">
             </a>
         </div>
         <div class="nav-links">
-            <a href="home.html">Home</a>
+            <a href="home.html" class="active">Home</a>
             <a href="about.html">About</a>
             <a href="services.html">Services</a>
             <a href="contact.html">Contact</a>
@@ -26,44 +31,46 @@
         </div>
     </nav>
 
-    <div>
-        <h2>Our mission:</h2>
-        <p>We aim to bring quality healthcare online through doctor consultations and health services.</p>
-        <h2>Top Doctors:</h2>
-        <table border="3">
-            <tr>
-                <th>Name</th>
-                <th>Specialization</th>
-            </tr>
-            <tr>
-                <td>Dr. Mehta </td>
-                <td>Cardiologist</td>
-            </tr>
-            <tr>
-                <td>Dr. Sharma</td>
-                <td>Neurologist</td>
-            </tr>
-            <tr>
-                <td>Dr. Gupta</td>
-                <td>Orthopedic</td>
-            </tr>
-            <tr>
-                <td>Dr. Singh</td>
-                <td>Pediatrician</td>
-            </tr>
-            <tr>
-                <td>Dr. Verma</td>
-                <td>Gastroenterologist</td>
-            </tr>
-        </table>
-        <h2>Health Tips:</h2>
-        <ul>
-            <li>Drink Plenty of water</li>
-            <li>Eat a balanced diet</li>
-            <li>Exercise regularly</li>
-            <li>Sleep at least 7-8 hours</li>
-        </ul>
-    </div>
+    <!-- 🌿 Page Content -->
+    <main>
+        <section class="mission">
+            <h2>Our Mission</h2>
+            <p>We aim to bring quality healthcare online through doctor consultations and health services.</p>
+        </section>
+
+        <section class="doctors">
+            <h2>Top Doctors</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Specialization</th>
+                </tr>
+                <tr><td>Dr. Mehta</td><td>Cardiologist</td></tr>
+                <tr><td>Dr. Sharma</td><td>Neurologist</td></tr>
+                <tr><td>Dr. Gupta</td><td>Orthopedic</td></tr>
+                <tr><td>Dr. Singh</td><td>Pediatrician</td></tr>
+                <tr><td>Dr. Verma</td><td>Gastroenterologist</td></tr>
+            </table>
+        </section>
+
+        <section class="tips">
+            <h2>Health Tips</h2>
+            <ul>
+                <li>Drink plenty of water</li>
+                <li>Eat a balanced diet</li>
+                <li>Exercise regularly</li>
+                <li>Sleep at least 7-8 hours</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- 🌈 Footer -->
+    <footer>
+        <p>&copy; 2025 MediBook | All Rights Reserved.</p>
+    </footer>
+
+    <!-- ✅ Place JS at the bottom (best practice) -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

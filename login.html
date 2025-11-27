@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>MediBook | Login</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="favicon.png">
-</head>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <script src="assets/js/script.js"></script>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div class="logo">
-            <a href="home.html">
-                <img src="logo.jpg" alt="MediBook Logo">
-            </a>
-        </div>
-        <div class="nav-links">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <div class="nav-buttons">
-            <a href="login.html" class="btn login-btn">Login</a>
-            <a href="signup.html" class="btn signup-btn">Sign Up</a>
-        </div>
+      <div class="logo">
+        <a href="home.html">
+          <img src="assets/images/logo.jpg" alt="MediBook Logo" />
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-buttons">
+        <a href="login.html" class="btn login-btn">Login</a>
+        <a href="signup.html" class="btn signup-btn">Sign Up</a>
+      </div>
     </nav>
 
     <div class="form-container">
-        <h2>Login</h2>
-        <form action="home.html" method="post">
-            <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="Email" required><br>
-            <label for="password">Password:</label>
-            <input type="password" name="password" placeholder="Password" required><br><br>
-            <button type="submit">Login</button><br>
-        </form>
+      <h2>Login</h2>
+      <form action="home.html" method="post">
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Email" required /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        /><br /><br />
+        <button type="submit">Login</button><br />
+      </form>
     </div>
-</body>
-
+    <footer>
+      <p>&copy; 2025 MediBook | All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
