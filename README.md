@@ -23,27 +23,29 @@ It provides a clean and structured interface for users to explore healthcare ser
 ---
 
 ## 📂 Project Structure
+# MediBook
 
-assets/
-    ├── audio/
-        └── location.mp3
-    ├── css/
-        └── styles.css
-    ├── images/
-        ├── about-team.jpg
-        ├── favicon.png
-        └── logo.jpg
-    └── js/
-        └── script.js
-.gitattributes
-about.html
-contact.html
-home.html
-LICENSE
-login.html
-README.md
-services.html
-signup.html
+* [assets/](.\MediBook\assets)
+  * [audio/](.\MediBook\assets\audio)
+    * [location.mp3](.\MediBook\assets\audio\location.mp3)
+  * [css/](.\MediBook\assets\css)
+    * [styles.css](.\MediBook\assets\css\styles.css)
+  * [images/](.\MediBook\assets\images)
+    * [about-team.jpg](.\MediBook\assets\images\about-team.jpg)
+    * [favicon.png](.\MediBook\assets\images\favicon.png)
+    * [logo.jpg](.\MediBook\assets\images\logo.jpg)
+  * [js/](.\MediBook\assets\js)
+    * [script.js](.\MediBook\assets\js\script.js)
+* [.gitattributes](.\MediBook\.gitattributes)
+* [about.html](.\MediBook\about.html)
+* [contact.html](.\MediBook\contact.html)
+* [home.html](.\MediBook\home.html)
+* [LICENSE](.\MediBook\LICENSE)
+* [login.html](.\MediBook\login.html)
+* [README.md](.\MediBook\README.md)
+* [services.html](.\MediBook\services.html)
+* [signup.html](.\MediBook\signup.html)
+
 
 ---
 
