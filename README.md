@@ -24,18 +24,21 @@ It provides a clean and structured interface for users to explore healthcare ser
 
 ## 📂 Project Structure  
 MediBook/
-├── home.html
+│
+├── assets/
+│ ├── audio/ location.mp3
+│ ├── css/ style.css
+│ ├── images/ logo.jpg, about-team.jpg, favicon.png
+│ └── js/ script.js
+│
 ├── about.html
-├── services.html
 ├── contact.html
+├── home.html
 ├── login.html
+├── services.html
 ├── signup.html
-├── styles.css
-├── logo.jpg
-├── about-team.jpg
-├── favicon.png
-└── location.mp3
-
+├── LICENSE
+└── README.md
 
 ---
 
