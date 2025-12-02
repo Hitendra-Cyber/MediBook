@@ -22,30 +22,28 @@ It provides a clean and structured interface for users to explore healthcare ser
 
 ---
 
-## 📂 Project Structure  
-MediBook/
-│
-├── assets/
-│   ├── audio/
-│   │   └── location.mp3
-│   ├── css/
-│   │   └── style.css
-│   ├── images/
-│   │   ├── logo.jpg
-│   │   ├── about-team.jpg
-│   │   └── favicon.png
-│   └── js/
-│       └── script.js
-│
-├── about.html
-├── contact.html
-├── home.html
-├── login.html
-├── services.html
-├── signup.html
-├── LICENSE
-└── README.md
+## 📂 Project Structure
 
+assets/
+    ├── audio/
+        └── location.mp3
+    ├── css/
+        └── styles.css
+    ├── images/
+        ├── about-team.jpg
+        ├── favicon.png
+        └── logo.jpg
+    └── js/
+        └── script.js
+.gitattributes
+about.html
+contact.html
+home.html
+LICENSE
+login.html
+README.md
+services.html
+signup.html
 
 ---
 
