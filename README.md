@@ -26,10 +26,16 @@ It provides a clean and structured interface for users to explore healthcare ser
 MediBook/
 │
 ├── assets/
-│ ├── audio/ location.mp3
-│ ├── css/ style.css
-│ ├── images/ logo.jpg, about-team.jpg, favicon.png
-│ └── js/ script.js
+│   ├── audio/
+│   │   └── location.mp3
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   │   ├── logo.jpg
+│   │   ├── about-team.jpg
+│   │   └── favicon.png
+│   └── js/
+│       └── script.js
 │
 ├── about.html
 ├── contact.html
@@ -39,6 +45,7 @@ MediBook/
 ├── signup.html
 ├── LICENSE
 └── README.md
+
 
 ---
 
